@@ -32,43 +32,43 @@ The designs were created to the following widths:
 - Weights: 700 */
 
 @font-face {
-	font-family: SpaceMono-Regular;
-	src: url(../fonts/SpaceMono-Regular.ttf);
+  font-family: SpaceMono-Regular;
+  src: url(../fonts/SpaceMono-Regular.ttf);
 }
 @font-face {
-	font-family: SpaceMono-Bold;
-	src: url(../fonts/SpaceMono-Bold.ttf);
+  font-family: SpaceMono-Bold;
+  src: url(../fonts/SpaceMono-Bold.ttf);
 }
 
 html {
-	font-size: 62.5%;
-	font-family: SpacerMono-Regular;
+  font-size: 62.5%;
+  font-family: SpacerMono-Regular;
 }
 
 body {
-	font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 
 h1 {
-	text-align: center;
-	letter-spacing: 4px;
+  text-align: center;
+  letter-spacing: 4px;
 }
 
 h1 span {
-	letter-spacing: 7px;
+  letter-spacing: 7px;
 }
 
 section {
-	display: flex;
-	gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .content-left {
-	display: grid;
-	min-width: 50%;
+  display: grid;
+  min-width: 50%;
 }
 
 .content-right {
-	display: grid;
-	min-width: 50%;
+  display: grid;
+  min-width: 50%;
 }
