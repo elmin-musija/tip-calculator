@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Class-less-CSS, WaterCSS -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"
+		/>
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<title>Splitter - Tip-Calculator</title>
+	</head>
+	<body>
+		<header>
+			<h1>
+				<span>SPLI</span> <br />
+				TTER
+			</h1>
+		</header>
+		<main>
+			<section>
+				<div class="content-left">
+					<label for="pay-total-id">Bill</label>
+					<input type="number" id="pay-total-id" placeholder="$" />
+					<div class="tip-ammount">
+						<!--als Sub-Grid??? -->
+						<button>5%</button><button>10%</button><button>15%</button
+						><button>25%</button><button>50%</button>
+						<input type="number" id="custom-tip-ammount" min="0" />
+					</div>
+					<label for="num-of-ppl-id">Number of People</label>
+					<input type="number" id="num-of-ppl-id" placeholder="👤" />
+				</div>
+				<div class="content-right">
+					<p>Tip Amount <br />/ person</p>
+					<h2>$ 0.00</h2>
+					<p>Tip Amount <br />/ person</p>
+					<h2>$ 0.00</h2>
+					<button type="button" id="reset-btn">RESET</button>
+				</div>
+			</section>
+		</main>
+		<script src="./assets/js/main.js"></script>
+	</body>
+</html>
