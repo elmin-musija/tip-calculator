@@ -55,12 +55,12 @@ h1 {
 }
 
 h1 span {
-	letter-spacing: 10px;
+	letter-spacing: 11.5px;
 }
 
 section {
 	display: flex;
-	gap: 15px;
+	gap: 10px;
 }
 
 .content-left {
