@@ -60,7 +60,7 @@ h1 span {
 
 section {
 	display: flex;
-	gap: 15px;
+	gap: 10px;
 }
 
 .content-left {
